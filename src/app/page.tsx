@@ -27,7 +27,7 @@ const CARDS_CONTENT = [
         href: "#",
       },
       {
-        title: "Form Pendaftaran",
+        title: "Formulir Pendaftaran",
         icon: <NotepadTextIcon className="size-6" />,
         image: "/vercel.svg",
         href: "https://bit.ly/OprecKarimunKemujan2026",
@@ -96,7 +96,7 @@ export default function LinksPage() {
                   {item.icon}
                 </div>
 
-                <p className="text-center text-sm w-full font-medium line-clamp-2">
+                <p className="text-center text-base w-full font-medium line-clamp-2">
                   {item.title}
                 </p>
 
