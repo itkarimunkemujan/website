@@ -16,13 +16,13 @@ export function ModeToggle({ className }: { className?: string }) {
 
   return (
     <Button
-      variant="outline"
+      variant="glass"
       size="icon-lg"
       onClick={toggleTheme}
       className={className}
     >
-      <SunIcon className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-      <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+      <SunIcon className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 text-[oklch(0.9751_0.0127_244.2507)]" />
+      <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 text-[oklch(0.9751_0.0127_244.2507)]" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
@@ -49,13 +49,9 @@ export const Logo = () => {
   }
 
   return (
-    <Button variant="logoOutline" size="icon-lg" className="hover:none">
+    <Button variant="glass" size="icon-lg" className="hover:none">
       <Image
-        src={
-          theme === "dark"
-            ? "/karimun-kemujan-logo-white.svg"
-            : "/karimun-kemujan-logo-blue.svg"
-        }
+        src={"/karimun-kemujan-logo-white.svg"}
         alt="Karimun Kemujan Logo"
         width={32}
         height={32}
