@@ -59,7 +59,7 @@ const CARDS_CONTENT = [
 
 export default function LinksPage() {
   return (
-    <main className="p-[18.75px]">
+    <main className="p-2 sm:p-[18.75px]">
       <div className="w-full h-full bg-[url(/background.png)] bg-cover sm:max-w-lg mx-auto  p-[18.75px] rounded-xl">
         <header className="flex justify-between items-center">
           <Logo />
