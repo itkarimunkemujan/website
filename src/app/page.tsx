@@ -17,7 +17,7 @@ const CARDS_CONTENT = [
         title: "Guidebook Pendaftaran",
         icon: <BookMarkedIcon className="size-6" />,
         image: "/vercel.svg",
-        href: "#",
+        href: "https://bit.ly/GuidebookOprecKarimunKemujan2026",
       },
       {
         title: "Formulir Pendaftaran",
