@@ -15,13 +15,13 @@ const CARDS_CONTENT = [
     items: [
       {
         title: "Guidebook Pendaftaran",
-        icon: <BookMarkedIcon className="size-6" />,
+        icon: <BookMarkedIcon className="size-5 sm:size-6" />,
         image: "/vercel.svg",
         href: "https://bit.ly/GuidebookOprecKarimunKemujan2026",
       },
       {
         title: "Formulir Pendaftaran",
-        icon: <NotepadTextIcon className="size-6" />,
+        icon: <NotepadTextIcon className="size-5 sm:size-6" />,
         image: "/vercel.svg",
         href: "https://bit.ly/OprecKarimunKemujan2026",
       },
@@ -32,13 +32,13 @@ const CARDS_CONTENT = [
     items: [
       {
         title: "Putri (WhatsApp)",
-        icon: <UserSearchIcon className="size-6" />,
+        icon: <UserSearchIcon className="size-5 sm:size-6" />,
         image: "/vercel.svg",
         href: "https://wa.me/6283877375754",
       },
       {
         title: "Dena (WhatsApp)",
-        icon: <UserRoundSearchIcon className="size-6" />,
+        icon: <UserRoundSearchIcon className="size-5 sm:size-6" />,
         image: "/vercel.svg",
         href: "https://wa.me/6288226430414",
       },
@@ -49,7 +49,7 @@ const CARDS_CONTENT = [
     items: [
       {
         title: "Official Website",
-        icon: <PanelsTopLeftIcon className="size-6" />,
+        icon: <PanelsTopLeftIcon className="size-5 sm:size-6" />,
         image: "/vercel.svg",
         href: "https://karimunkemujan.com",
       },
@@ -68,7 +68,7 @@ export default function LinksPage() {
         </header>
         <section className="flex justify-center items-center flex-col gap-3 my-10 text-center text-[oklch(0.9751_0.0127_244.2507)]">
           <p className="font-semibold">KKN - PPM UGM Periode II 2026</p>
-          <h1 className="font-bold text-5xl">Karimun Kemujan</h1>
+          <h1 className="font-bold text-4xl sm:text-5xl">Karimun Kemujan</h1>
           <p className="font-semibold">KARIMUNJAWA - JEPARA</p>
         </section>
         <section className="flex flex-col gap-6">
@@ -86,7 +86,7 @@ export default function LinksPage() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[oklch(0.4461_0.0263_256.8018)]/30 flex h-20 w-full items-center justify-center rounded-xl shadow-md p-4 gap-2 text-[oklch(0.9751_0.0127_244.2507)] backdrop-blur-xs inset-shadow-[oklch(0.9751_0.0127_244.2507)]/30 inset-shadow-sm"
+                  className="bg-[oklch(0.4461_0.0263_256.8018)]/30 flex h-16 sm:h-20 w-full items-center justify-center rounded-xl shadow-md p-3 sm:p-4 gap-2 text-[oklch(0.9751_0.0127_244.2507)] backdrop-blur-xs inset-shadow-[oklch(0.9751_0.0127_244.2507)]/30 inset-shadow-sm"
                 >
                   <div className="border aspect-square h-full flex items-center justify-center rounded-md">
                     {item.icon}
